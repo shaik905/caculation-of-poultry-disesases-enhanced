@@ -1,0 +1,20 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore model weights
+*.h5
+*.keras
+
+# Ignore datasets and other large folders
+dataset/
+*.zip
+
+# Ignore VS Code and system files
+.vscode/
+.DS_Store
+.ipynb_checkpoints/
